@@ -1,0 +1,16 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "secondTest": "mocha ./test/secondTest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.1.3",
+    "request": "^2.88.2"
+  }
+}
